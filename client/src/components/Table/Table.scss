@@ -1,0 +1,33 @@
+.auction-table {
+  border-collapse: collapse;
+
+  &__cell {
+    padding: 5px;
+    width: 300px;
+
+    &--header {
+      padding: 10px;
+      text-transform: uppercase;
+      border-bottom: 5px solid #C2C2C2C2;
+    }
+
+    &--move {
+      border-bottom: none;
+    }
+
+    &--value {
+      text-align: center;
+    }
+  }
+
+  &__row {
+    
+    &:nth-child(odd) {
+      background-color: #C2C2C2C2;
+    }
+
+    &.auction-table__row--header {
+      background-color: transparent;
+    }
+  }
+}

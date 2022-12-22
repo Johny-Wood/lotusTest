@@ -1,0 +1,31 @@
+.participants {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto; 
+  padding: 20px 50px;
+  max-width: 600px;
+  height: 250px;
+  background-color: ghostwhite;
+  border-radius: 10px;
+
+  &__form {
+    max-width: 300px;
+  }
+
+  &__input {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__list {
+    margin-bottom: 50px !important;
+    padding: 10px !important;
+    background-color: #f3f2f2c2;
+    border-radius: 8px;
+  }
+}
